@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-@)33$1!u^i8()fvf27c(c+q5-$u8uxm+nvb$7hs=219kzi88fe
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["40.69.214.91"]
 
 
 # Application definition
@@ -72,7 +72,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'project.wsgi.application'
+#WSGI_APPLICATION = 'project.wsgi.application'
 
 CRISPY_TEMPLATE_PACK = 'uni_form'
 
