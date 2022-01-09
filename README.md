@@ -1,26 +1,24 @@
-# Kuvagalleria
-HAMK Web-ohjelmointikurssin projektityö. Django kuvagalleria.
+# VJA Image Gallery
 
-Dependencies:
+![Kuvagalleria](/gallery/static/vja-image-gallery-header.png)  
 
-Pillow>=8.3.2
-django-imagekit>=4.0.2
-Django>=3.2.6
-django-cleanup>=5.2.0
+Student Django project. Made in collaboration with [VtotheK](https://github.com/VtotheK) and [superj4mes](https://github.com/superj4mes). Hosted @Azure, [Link to site](http://vja-imagegallery.eastus.cloudapp.azure.com/)
 
+Credentials for test user:
+```
+Username: TestUser
+Password: VJA1mageG4llery
+```
+Test user can't add, remove or update galleries or images.
 
-after cloning:
+## Features
 
-python3 manage.py makemigrations gallery
-
-python3 manage.py sqlmigrate gallery 0001
-
-python3 manage.py migrate
-
-python3 manage.py createsuperuser
-
-
-change the ALLOWED_HOSTS in settings.py to match your setup.
-For example if you are running this on Azure VM, you need to use your VM's public IP.
-
-python3 manage.py runserver 0.0.0.0:8000  (for example)
+* Login page
+* Register page
+* Create gallery
+* Add images to gallery
+* Slideshow gallery images
+* Gallery private/public setting
+* Automatic thumbnails
+* Responsive UI
+* Add/delete images/galleries
